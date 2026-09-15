@@ -36,13 +36,13 @@ variable "subnet4_cidr" {
 
 variable "az1" {
   type        = string
-  default     = "ca-canada-1a"
+  default     = "ca-central-1a"
   description = "Enter Your AZ1 name"
 }
 
 variable "az2" {
   type        = string
-  default     = "ca-canada-1b"
+  default     = "ca-central-1b"
   description = "Enter Your AZ2 name"
 }
 
