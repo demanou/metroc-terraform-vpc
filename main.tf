@@ -14,7 +14,7 @@ resource "aws_internet_gateway" "customIGW" {
   }
 }
 
-#Deploy a Route Table v2
+#Deploy a Route Table v3
 resource "aws_route_table" "publicRT" {
   vpc_id = aws_vpc.customVPC.id #Attached RT to VPC
 
